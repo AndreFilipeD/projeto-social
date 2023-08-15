@@ -33,6 +33,10 @@ iframe#tela{
     position: absolute;
     top: 80px;
     left: 22px;
+    
+}
+iframe#tela:hover{
+    box-shadow: 0px 0px 100px rgba(255, 255, 255, 0.274);
 }
 section#social{
     text-align: right;
@@ -50,4 +54,15 @@ section#social img{
     border-radius: 50%;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.308);
     box-sizing: border-box;
+}
+div{
+    box-shadow: 0px 0px 30px 30px rgba(0, 0, 0, 0.384);
+    border-radius: 50px;
+    top: 89%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.400);
+    position: absolute;
+    width: 220px;
+    height: 0px;
 }
